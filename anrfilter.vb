@@ -36,17 +36,11 @@ bottom1:
 
         Dim tw As TextWriter = File.CreateText("c:\temp\results.txt")
 
-        'tw.WriteLine("The following drives or paths are not online:")
-        'tw.WriteLine()
 
         For i = 0 To ctr
             tw.WriteLine(line(i))
         Next
-
-        'tw.WriteLine()
-        'tw.WriteLine("Please check!")
-
-        tw.close()
+       tw.close()
 
         ' Console.ReadKey()
         End
